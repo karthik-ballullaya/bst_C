@@ -2,6 +2,10 @@
 
 [Queue library Link](https://github.com/karthik-ballullaya/queue_C)
 
+## Table of contents
+1. [Functionalities](#functionalities)
+2. [Compilation Command](#compilation-command)
+
 ### Functionalities
 * Trivial Functionalities
     * Add a node to the bst tree
@@ -23,5 +27,7 @@
     * ascending order
     * descending order
 
-Compilation command: gcc -D QUEUE_CONTENT_TYPE="void*" -I [Address to Queue header] -I [Address to BST header] -g [Address to BST source] [Address to Queue source] -o [Address followed by the output file name]
-Ex: gcc -D QUEUE_CONTENT_TYPE="void*" -I ..\..\Queue\Headers -I .\Headers -g .\Sources\*.c ..\..\Queue\Sources\queue.c -o .\Sources\main.exe
+### Compilation command
+gcc -D QUEUE_CONTENT_TYPE="void*" -I [Address to Queue header] -I [Address to BST header] -g [Address to BST source] [Address to Queue source] -o [Address followed by the output file name]
+
+Ex: gcc -D QUEUE_CONTENT_TYPE="void*" -I ..\\..\\Queue\\Headers -I .\\Headers -g .\\Sources\\*.c ..\\..\\Queue\\Sources\\queue.c -o .\\Sources\\main.exe
